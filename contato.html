@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="container">
+        <h1>Contato</h1>
+    </header>
+    <!-- Menu de navegação -->
+    <nav class="container menu">
+        <ul>
+            <!-- Links para diferentes páginas -->
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="experiencia.html">Experiência</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- Cabeçalho da página -->
+        <h1>Caso tenha interesse em contato, deixe uma mensagem!</h1>
+        
+        <!-- Formulário de contato -->
+        <form onsubmit="showSuccessMessage(event)">
+            <!-- Campo para o nome -->
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Campo para o email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Campo para a mensagem -->
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <!-- Botão para enviar a mensagem -->
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+
+        <!-- Mensagem de sucesso -->
+        <div id="success-message" class="success-message">
+            Sua mensagem foi enviada com sucesso!
+        </div>
+    </div>
+</body>
+</html>
