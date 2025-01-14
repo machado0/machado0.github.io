@@ -1,5 +1,5 @@
 body {
-    background: url('/imagens/league-client-bg.jpg') no-repeat center center fixed;
+    background: url('imagens/league-client-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     color: rgb(23, 117, 113);
     font-family: 'Beaufort', Arial, serif;

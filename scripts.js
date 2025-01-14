@@ -5,7 +5,7 @@ function getRandomChampionByLane(lane) {
             "Ambessa", "Gragas", "Heimerdinger", "Karma", "Rengar", "Smolder", "Sylas", "Twisted Fate", "Vayne", "Vladimir", "Warwick", "Wukong", "Zac", "Aatrox", "Akali", "Aurora", "Camille", "Cho'Gath", "Darius", "Dr. Mundo", "Fiora", "Gangplank", "Garen", "Gnar", "Gwen", "Illaoi", "Irelia", "Jax", "Jayce", "K'Sante", "Kayle", "Kennen", "Kled", "Malphite", "Mordekaiser", "Nasus", "Olaf", "Ornn", "Pantheon", "Poppy", "Quinn", "Renekton", "Riven", "Rumble", "Sett", "Shen", "Singed", "Sion", "Skarner", "Tahm Kench", "Teemo", "Trundle", "Tryndamere", "Udyr", "Urgot", "Volibear", "Yasuo", "Yone", "Yorick"
         ],
         jungle: [
-            "Gragas", "Rengar", "Warwick", "Wukong", "Zac", "Amumu", "Bel'Veth", "Brand", "Briar", "Diana", "Ekko", "Elise", "Evelynn", "Fiddlesticks", "Graves", "Hecarim", "Ivern", "Jarvan IV", "Karthus", "Kayn", "Kha'Zix", "Kindred", "Lee Sin", "Lillia", "Maokai", "Master Yi", "Nocturne", "Nidalee", "Nunu & Willump", "Rammus", "Rek'Sai", "Sejuani", "Shaco", "Shyvana", "Taliyah", "Vi", "Viego", "Xin Zhao"
+            "Gragas", "Teemo", "Rengar", "Warwick", "Wukong", "Zac", "Amumu", "Bel'Veth", "Brand", "Briar", "Diana", "Ekko", "Elise", "Evelynn", "Fiddlesticks", "Graves", "Hecarim", "Ivern", "Jarvan IV", "Karthus", "Kayn", "Kha'Zix", "Kindred", "Lee Sin", "Lillia", "Maokai", "Master Yi", "Nocturne", "Nidalee", "Nunu & Willump", "Rammus", "Rek'Sai", "Sejuani", "Shaco", "Shyvana", "Taliyah", "Vi", "Viego", "Xin Zhao"
         ],
         mid: [
             "Ambessa", "Gragas", "Karma", "Smolder", "Sylas", "Twisted Fate", "Vladimir", "Ahri", "Akali", "Aurora", "Irelia", "Jayce", "Malphite", "Naafiri", "Ryze", "Syndra", "Taliyah", "Yasuo", "Yone", "Cassiopeia", "Corki", "Diana", "Ekko", "Fizz", "Galio", "Hwei", "Kassadin", "Katarina", "LeBlanc", "Lissandra", "Lux", "Malzahar", "Orianna", "Qiyana", "Swain", "Talon", "Tristana", "Veigar", "Vel'Koz", "Vex", "Viktor", "Xerath", "Zed", "Ziggs", "Zoe"
@@ -24,7 +24,7 @@ function getRandomChampionByLane(lane) {
 }
 
 function getRandomChampion() {
-    const champions = ["Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe", "Aurelion Sol", "Aurora", "Azir", "Bardo", "Bel'Veth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Gwen", "Hecarim", "Heimerdinger", "Hwei", "Illaoi", "Irelia", "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "K'Sante", "Kai'Sa", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle", "Kayn", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "LeBlanc", "Lee Sin", "Leona", "Lillia", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Milio", "Miss Fortune", "Mordekaiser", "Morgana", "Naafiri", "Nami", "Nasus", "Nautilus", "Neeko", "Nidalee", "Nilah", "Nocturne", "Nunu e Willump", "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", "Qiyana", "Quinn", "Rakan", "Rammus", "Rek'Sai", "Rell", "Renata Glasc", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Samira", "Sejuani", "Senna", "Seraphine", "Sett", "Shaco", "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Smolder", "Sona", "Soraka", "Swain", "Sylas", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vex", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", "Xin Zhao", "Yasuo", "Yone", "Yorick", "Yuumi", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", "Zyra"]
+    const champions = ["Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe", "Aurelion Sol", "Aurora", "Azir", "Bardo", "Bel'Vetth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Gwen", "Hecarim", "Heimerdinger", "Hwei", "Illaoi", "Irelia", "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "K'Sante", "Kai'Sa", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle", "Kayn", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "LeBlanc", "Lee Sin", "Leona", "Lillia", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Milio", "Miss Fortune", "Mordekaiser", "Morgana", "Naafiri", "Nami", "Nasus", "Nautilus", "Neeko", "Nidalee", "Nilah", "Nocturne", "Nunu & Willump", "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", "Qiyana", "Quinn", "Rakan", "Rammus", "Rek'Sai", "Rell", "Renata Glasc", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Samira", "Sejuani", "Senna", "Seraphine", "Sett", "Shaco", "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Smolder", "Sona", "Soraka", "Swain", "Sylas", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vex", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", "Xin Zhao", "Yasuo", "Yone", "Yorick", "Yuumi", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", "Zyra"]
     const randomIndex = Math.floor(Math.random() * champions.length);
     return champions[randomIndex];
 }
@@ -34,10 +34,10 @@ let championImages = {};
 function updateChampionImage(lane, championName = null) {
     const imageElement = document.getElementById(`${lane}-img`);
     if (championName) {
-        imageElement.src = championImages[championName] || "/imagens/ping.png";
+        imageElement.src = championImages[championName] || "imagens/ping.png";
         imageElement.alt = championName;
     } else {
-        imageElement.src = "/imagens/ping.png";
+        imageElement.src = "imagens/ping.png";
         imageElement.alt = "No Champion Selected";
     }
 }
@@ -65,7 +65,7 @@ async function selectChampion(lane) {
         for (i = 1; i < 5; i++) {
         const champion  = getRandomChampionByLane(lane);
         updateChampionImage(lane, champion);
-        await delay(500);
+        await delay(250);
         }
 
         updateChampionImage(lane, champion);
@@ -80,10 +80,6 @@ let isUserInteracted = false;
 document.addEventListener('click', () => {
     isUserInteracted = true;
 });
-
-function spinWheel() {
-    
-}
 
 function playRandomHoverSound() {
     if (!isUserInteracted) return;
