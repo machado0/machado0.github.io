@@ -51,7 +51,7 @@ async function selectRandomChampion(lane) {
             const champion  = getRandomChampionByLane(lane);
             updateChampionImage(lane, champion);
             console.log(champion)
-            await delay(500);
+            await delay(250);
             }
          
         updateChampionImage(lane, champion);
