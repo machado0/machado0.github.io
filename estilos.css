@@ -125,9 +125,19 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
     transition: transform 0.3s ease; /* Adiciona uma transição suave */
     margin: 0 auto;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 /* Efeito de hover na imagem */
 img:hover {
     transform: scale(1.1); /* Aumenta ligeiramente o tamanho da imagem */
+}
+
+.container_wrapper {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
 }
